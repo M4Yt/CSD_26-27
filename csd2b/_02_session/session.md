@@ -19,6 +19,10 @@
 
   _Continuous and dicsrete time, expressed as a function of phase_
 
+
+**NOTE: Er bestaat geen SineOscillator standaard in cpp die we zo kunnen 'inpluggen', dus we gaan dit op low-level niveau helemaal doorlopen en zelf implenenteren.**
+  
+
   - Sine function unit circle op bord
 
   - Sine function in audio context

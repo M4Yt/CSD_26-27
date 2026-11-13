@@ -18,14 +18,7 @@ markdown preview bekijken.
 
 <br></br>
 
-- **Constructor delegation**
-  - Lees over **constructor delegation** https://www.tutorialspoint.com/cplusplus/cpp_delegating_constructors.htm
-  - Voer het voorbeeld _1_oscillator_final_ uit en bekijk de flow, welke constructor wordt het eerst aangeroepen?
-- **Initializer list**
-  - Lees over **initializer list** (initialization / initializer list worden beide gebruikt) https://www.tutorialspoint.com/cplusplus/cpp_constructor_initialization_list.htm
-  - Waarom zou je een initializer list gebruiken in plaats van de body van de constructor?
-  - Kun je een reden bedenken om ipv een initializer list voor zowel freq en amp een losse setter functie in de
-  constructor body aan te roepen?
+  
 ## 2. Classes, inheritance & oefenen met C++
 
 2.1 **[READ][DIGEST] Destructor, delegating constructor en initializer list**
@@ -33,6 +26,16 @@ markdown preview bekijken.
 - **Destructors**
   - Lees over **destructors** https://www.tutorialspoint.com/cplusplus/cpp_destructors.htm
   - Wanneer zou een destructor in MT context nodig zijn?
+
+- **[OPTIONAL][READ][INFO]** Herhaling verdiepingsonderwerpen in code voorbeelden:
+  - **Constructor delegation**
+    - [herhaling assignments 1] Lees over **constructor delegation** https://www.tutorialspoint.com/cplusplus/cpp_delegating_constructors.htm
+    - Voer het voorbeeld _1_oscillator_final_ uit en bekijk de flow, welke constructor wordt het eerst aangeroepen?
+  - **Initializer list**
+    - [herhaling assignments 1] Lees over **initializer list** (initialization / initializer list worden beide gebruikt) https://www.tutorialspoint.com/cplusplus/cpp_constructor_initialization_list.htm
+    - Waarom zou je een initializer list gebruiken in plaats van de body van de constructor?
+    - Kun je een reden bedenken om ipv een initializer list voor zowel freq en amp een losse setter functie in de
+      constructor body aan te roepen?
 
 2.2 **[INSTALL]** Installeer Juce,  volg de md met instructies in _sessie2/6_JuceTest
 
