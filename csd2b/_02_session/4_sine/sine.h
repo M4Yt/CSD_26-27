@@ -2,6 +2,7 @@
 #define _SINE_H_
 #include <iostream>
 
+// macro --> textual replacement at compiletime
 #define SAMPLERATE 44100
 
 class Sine

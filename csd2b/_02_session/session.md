@@ -26,7 +26,7 @@
   - Sine function unit circle op bord
 
   - Sine function in audio context
-  <u>**see 2_sine_information.R**</u> - _the generation of a sine wave in audio context step by step (.R file is a script in the R language)_
+  <u>**see sine_information_README and / or hand-out**</u> - _the generation of a sine wave in audio context step by step (.R file is a script in the R language)_
 
   - _Flip the classroom_:
 

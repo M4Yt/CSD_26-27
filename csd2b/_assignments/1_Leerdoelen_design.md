@@ -20,9 +20,9 @@ deze toe aan je al bestaande repository in folder csd2b/synthSong/.
     - The chosen focus (custom synthesizers / melody generation)
     - Functional design, describing the user interaction flow
 
-    - Functional flow diagram, the user interaction flow together with the overall processes captured in a diagram
+    - Functional flow diagram (you can find flow diagram shapes online, or use a simple custom formatting, search), the overall processes captured in a diagram and indicate e.g. with highlighting --> [TODO C] simple example.  
 
-    - If you have chosen the SYNTH FOCUS
+    - If you have chosen the SYNTH FOCUS - NOTE: "KEEP IT SIMPLE, STUPID!" (KISS) _(e.g. FM synth, AM synth, RM synth, simple additive squarewave to generate organ like sound, additive synth, ... - NO DSP EFFECTS!)_
         - A description of the two synthesizer designs, accommodated with a personal motivation for these two chosen designs.
         - 2x Audio flow diagram (one for each synthesizer design) 
       _(see example audio flow diagrams in `./1_audio_flow_and_pseudo_code.md`)_
@@ -33,7 +33,7 @@ deze toe aan je al bestaande repository in folder csd2b/synthSong/.
         - A description of the applied melody generation strategy, accommodated with a personal motivation for this strategy.
         - Melody generation flow diagram
         - Melody generation flow captured in pseudo code
-    _(see example psuedo code in `./1_audio_flow_and_pseudo_code.md`)_
+    _(see example psuedo code in `./1_audio_flow_and_pseudo_code.md` - this is an synth example instead of melody generation example (TODO - create melody example))_
 
 
 ### 1.2 Focus en leerdoelen

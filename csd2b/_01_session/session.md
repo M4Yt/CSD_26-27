@@ -42,6 +42,7 @@ _Voor het compilen zie `compilen.md`._
   _Zie ../slides/Sessie1_inheritance.pdf_
 
 
+## TODO - toevoegen voor 27-28 HOE LEES JE DE CODE VOORBEELDEN DOOR OP DE CPPREF SITE WAARAAN GEREFERENCED WORDT? 
 ### NOTE: voorbeeld 4 is bedoeld voor zelfstudie, zie ../assignments/1_assignments.md
 
 

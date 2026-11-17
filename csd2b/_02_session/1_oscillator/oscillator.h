@@ -7,8 +7,11 @@ class Oscillator
 {
 public:
   Oscillator();
+  ~Oscillator();
 
-  // TODO add setters and getters
+  void setFrequency(float frequency);
+  float getFrequency();
 
-
+private:
+  float frequency = 0.0f;
 };

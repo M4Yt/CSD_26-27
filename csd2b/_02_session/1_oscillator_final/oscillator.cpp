@@ -1,17 +1,19 @@
 #include "oscillator.h"
 
 
-// delegating constructor
-Oscillator::Oscillator() : Oscillator(220, 0) // default frequency
+// default constructor assigns default values
+Oscillator::Oscillator()
 {
-  std::cout << "Inside Oscillator constructor ()\n";
+  std::cout << "Inside Oscillator default constructor ()\n";
+  freq = 220.0;
+  amp = 0.0;
 }
 
-// initializer list:  used to directly initialize data members of a class.
 Oscillator::Oscillator(float frequency, float amp)
-    : freq(frequency), amp(amp)
 {
-  std::cout << "Inside Oscillator constructor (frequency)\n";
+  std::cout << "Inside Oscillator constructor (frequency, amp)\n";
+  freq = frequency;
+  this->amp = amp;
 }
 
 Oscillator::~Oscillator()
