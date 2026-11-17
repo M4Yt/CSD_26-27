@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "sine.h"
 #include "writeToFile.h"
 
