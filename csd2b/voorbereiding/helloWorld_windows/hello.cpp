@@ -23,7 +23,8 @@ int main () {
   std::cout <<  "Enter your age: ";
   std::string yourAge;
   std::cin >> yourAge;
-  int aNumber = (int)yourAge[0];
-  std::string aNumberAsText = std::to_string (aNumber);
+  int aNumber = stoi(yourAge);
+  float beSceptic = 10.9 * aNumber;
+  std::string aNumberAsText = std::to_string (beSceptic);
   std::cout << aNumberAsText << std::endl;
 }
