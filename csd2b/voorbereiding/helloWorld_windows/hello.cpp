@@ -19,7 +19,11 @@ int main () {
 
 
   // test if we are using a modern compiler
-  int aNumber = 10;
+
+  std::cout <<  "Enter your age: ";
+  std::string yourAge;
+  std::cin >> yourAge;
+  int aNumber = (int)yourAge[0];
   std::string aNumberAsText = std::to_string (aNumber);
   std::cout << aNumberAsText << std::endl;
 }
